@@ -21,7 +21,7 @@ public class Junitcase1{
 	public void testName()
 	{
 		
-		Employee emp = new Employee(11, "jp",35000.0f);
+		Employee emp = new Employee(11, "jp",35000.0f,"UP");
 		System.out.println("testcase1");
 		Assert.assertEquals("jp", emp.getName());
 		

@@ -18,7 +18,7 @@ public class Junitcase2 {
 	public void testID()
 	{
 		
-		Employee emp = new Employee(11, "jp",35000.0f);
+		Employee emp = new Employee(11, "jp",35000.0f,"Punjab");
 		Assert.assertEquals(11, emp.getId());
 	
 	}

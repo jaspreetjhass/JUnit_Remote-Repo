@@ -18,7 +18,7 @@ public class Junitcase3 {
 	public void testSalary()
 	{
 		
-		Employee emp = new Employee(11, "jp",35000.0f);
+		Employee emp = new Employee(11, "jp",35000.0f,"Haryana");
 		Assert.assertEquals(45000f, emp.getSalary());
 	
 	}
