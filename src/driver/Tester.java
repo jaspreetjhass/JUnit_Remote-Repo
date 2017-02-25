@@ -34,11 +34,6 @@ public class Tester {
 		
 		System.out.println(ruuner.wasSuccessful());
 		
-		/*TestResult result = null;
-		TestSuite suite =  new TestSuite(Junitcase1.class);
-		suite.run(result);
-		System.out.println(result.wasSuccessful());*/
-		
 		
 	}
 	

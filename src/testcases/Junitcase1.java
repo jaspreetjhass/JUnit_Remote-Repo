@@ -13,54 +13,21 @@ import junit.framework.TestResult;
 import model.Employee;
 
 
-public class Junitcase1 extends TestResult{
+public class Junitcase1{
 
-	@BeforeClass
-	public static void init()
-	{
 	
-		System.out.println("before class");
-	
-		
-	}
-	
-	@Before
-	public void initbefore()
-	{
-	
-		System.out.println("init before class");
-	
-		
-	}
 	
 	@Test
-	public void testCase1()
+	public void testName()
 	{
 		
-		Employee emp = new Employee(11, "jp");
-		Assert.assertEquals("jp", emp.getName());
+		Employee emp = new Employee(11, "jp",35000.0f);
 		System.out.println("testcase1");
-		TestCase tc =  new Junitcase2();
+		Assert.assertEquals("jp", emp.getName());
 		
-		this.run(tc);
 	
 		
 	}
-	
-	@AfterClass
-	public static void destroy()
-	{
-		
-		System.out.println("after class");
-		
-	}
-	
-	@After
-	public void destroyafter()
-	{
-		
-		System.out.println("destroy after class");
-		
-	}
+
 	
 }

@@ -12,14 +12,14 @@ import junit.framework.TestCase;
 import model.Employee;
 
 
-public class Junitcase2 {
+public class Junitcase3 {
 	
 	@Test
-	public void testID()
+	public void testSalary()
 	{
 		
 		Employee emp = new Employee(11, "jp",35000.0f);
-		Assert.assertEquals(11, emp.getId());
+		Assert.assertEquals(45000f, emp.getSalary());
 	
 	}
 	
